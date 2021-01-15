@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "Inconsolata:pixelsize=14:antialias=true:autohint=true";
+static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -96,24 +96,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#222222",
+	"#dc662e",
+	"#008eab",
+	"#feaf3c",
+	"#2f737d",
+	"#78dcf4",
+	"#60b2c2",
+	"#e5c49e",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#545e65",
+	"#dd9a8a",
+	"#749ea9",
+	"#fedaae",
+	"#0cc7e4",
+	"#c7e8f2",
+	"#98b9c1",
+	"#ffe9d7",
 
 	[255] = 0,
 
