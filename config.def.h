@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:pixelsize=12";
-static int borderpx = 20;
+static char *font = "JetBrainsMono:pixelsize=20";
+static int borderpx = 80;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -96,26 +96,25 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#000000",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
+	"#111111",
+	"#333333",
+	"#555555",
+	"#ff8c00",
+	"#888888",
+	"#bbbbbb",
+	"#dddddd",
 	"#ffffff",
 
 	/* 8 bright colors */
-	"#000000",
+	"#111111",
+	"#333333",
+	"#555555",
+	"#ff8c00",
+	"#888888",
+	"#bbbbbb",
+	"#dddddd",
 	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
-	"#ffffff",
+
 
 	[255] = 0,
 
